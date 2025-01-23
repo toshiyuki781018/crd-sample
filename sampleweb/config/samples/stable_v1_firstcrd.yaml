@@ -1,0 +1,8 @@
+apiVersion: stable.example.com/v1
+kind: FirstCrd
+metadata:
+  name: firstcrd-sample
+spec:
+  # Add fields here
+  message: "Good Bye, My Custom Controller!"
+  replicas: 2
